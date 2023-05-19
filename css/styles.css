@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --main-clr: #E7684A;
+    --bg-clr: #131214;
+    --bg-clr-2: #1D1C1F;
+    --light-clr: #757575;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    background-color: var(--bg-clr);
+    color: #fbfbfb;
+}
+
+i {
+    color: var(--main-clr);
+}
+
+.navbar-bg-dark {
+    background-color: var(--bg-clr);
+}
+
+.navbar-brand span {
+    color: var(--main-clr);
+    margin-left: -8px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-clr-2);
+    padding: 10px 20px;
+    border-radius: 500px;
+}
+
+.search-icon-btn {
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.search-container .search-box {
+    background-color: var(--bg-clr-2);
+    border: 0;
+    outline: 0;
+    color: var(--light-clr);
+    padding: 0 10px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.current-wheater {
+    background-color: var(--bg-clr-2);
+    padding: 20px 25px;
+    border-radius: 25px;
+}
+
+.current-data {
+    background-color: var(--bg-clr-2);
+    padding: 20px 25px;
+    border-radius: 25px;
+}
+
+
+
+/* Current Weather Data */
+
+.temp-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.temp-data-flex {
+    display: flex;
+    align-items: center;
+}
+
+.current-cond {
+    width: 120px;
+    margin-left: 20px;
+}
+
+.current-temp {
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.temp-c {
+    font-size: 55px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.location i {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.data-box {
+    background-color: #161617;
+    min-height: 150px;
+    border-radius: 15px;
+}
+
+.data-box i {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.data-box-flex {
+    display: flex;
+    align-items: center;
+}
+
+.map-image {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.error-msg {
+    display: none;
+}
